@@ -9,7 +9,7 @@ public class Contacto {
     private String telefono;
     private String celular;
     private int top_aux;
-    private ArrayList<Empresa> empresas;
+    private ArrayList<Empresa> empresa;
 
     public Contacto() {
     }
@@ -21,7 +21,7 @@ public class Contacto {
         this.telefono = telefono;
         this.celular = celular;
         this.top_aux = top_aux;
-        this.empresas = empresas;
+        this.empresa = empresas;
     }
 
     public int getId() {
@@ -73,12 +73,10 @@ public class Contacto {
     }
 
     public ArrayList<Empresa> getEmpresas() {
-        return empresas;
+        return empresa;
     }
 
     public void setEmpresas(ArrayList<Empresa> empresas) {
-        this.empresas = empresas;
+        this.empresa = empresas;
     }
-    
-    
 }
